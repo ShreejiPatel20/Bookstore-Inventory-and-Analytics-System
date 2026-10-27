@@ -1,0 +1,73 @@
+BOOKSTORE INVENTORY AND ANALYTICS SYSTEM Sample Program Output
+========================================
+
+Note: This output is based on the sample inventory.csv and sales.csv
+datasets. Your output may differ after changing the data.
+
+1. MAIN MENU
+
+========== BOOKSTORE INVENTORY & ANALYTICS ==========
+
+1.  Show inventory
+2.  Add a book
+3.  Update stock quantity
+4.  Remove a book
+5.  Record a sale
+6.  Show sales records
+7.  Generate report
+8.  Analyze sales
+9.  Show visualizations
+10. Exit
+
+Enter your choice: 1
+
+2. BOOK INVENTORY
+
+BOOK INVENTORY
+
+              Title               Author      Genre  Price  Quantity
+      Atomic Habits          James Clear  Self-Help    450        20
+      The Alchemist         Paulo Coelho    Fiction    299        15
+      Wings of Fire A. P. J. Abdul Kalam  Biography    250        18
+
+Python Crash Course Eric Matthes Technology 650 12 Rich Dad Poor Dad
+Robert Kiyosaki Finance 399 14 Ikigai Hector Garcia Self-Help 350 10
+Harry Potter J. K. Rowling Fantasy 550 8 Clean Code Robert C. Martin
+Technology 720 7
+
+3. BOOKSTORE REPORT
+
+========== BOOKSTORE REPORT ========== Different book titles: 8 Total
+copies in stock: 104 Current inventory value: ₹44311.00 Total copies
+sold: 20 Total revenue: ₹9015.00
+
+Top-selling books: Title Atomic Habits 6 Python Crash Course 3 The
+Alchemist 3 Harry Potter 2 Rich Dad Poor Dad 2
+
+4. SALES ANALYSIS
+
+========== SALES ANALYSIS ========== Total revenue: ₹9015.00 Average
+revenue per sales record: ₹901.50 Average quantity per sales record:
+2.00
+
+Top-selling books: Title Atomic Habits 6 Python Crash Course 3 The
+Alchemist 3 Harry Potter 2 Rich Dad Poor Dad 2
+
+Revenue by genre: Genre Self-Help 3050.0 Technology 2670.0 Fantasy
+1100.0 Fiction 897.0 Finance 798.0 Biography 500.0
+
+Monthly revenue: Month 2026-08 2447.0 2026-09 3448.0 2026-10 3120.0
+
+5. VISUALIZATION OUTPUT
+
+When option 9 is selected, the program opens these charts (where data is
+available): 1. Bar chart: Total copies sold by genre. 2. Line graph:
+Monthly sales revenue. 3. Pie chart: Revenue share by genre. 4. Heatmap:
+Correlation between book price and sales volume.
+
+Close each chart window to continue to the next chart or return to the
+menu.
+
+6. EXIT OUTPUT
+
+Enter your choice: 0 Thank you for using the Bookstore System!
